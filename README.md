@@ -5,6 +5,8 @@ Multiprocessing pipeline with the Producer/Consumer pattern for synthetic tabula
 It is not a polished production system 
 — you may need to adapt, extend, or harden it for your own use cases.
 
+# DP Pipeline Overview
+
 ```mermaid
 flowchart LR
     A[Extract n random example rows from file] --> B[Enrich and create prompt]
